@@ -28,12 +28,3 @@ engine.add(2, "Join us for a weekend braai in Johannesburg with friends")
 engine.add(3, "Discover Table Mountain and the beaches of Cape Town")
 engine.add(4, "Listen to Kwaito and Afrobeat music on SA Radio")
 engine.add(5, "Braais and live music make Durban weekends special")
-
-print(engine.search("braai"))        # [2, 5]
-print(engine.search("music"))        # [4, 5]
-print(engine.search("durban"))       # [5]
-print(engine.search("cape"))         # [3]
-print(engine.search("weekend"))      # [2, 5]
-print(engine.search("johannesburg")) # [2]
-print(engine.search("kwaito"))       # [4]
-print(engine.search("soccer"))  
